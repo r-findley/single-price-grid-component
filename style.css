@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+   ==========================
+   Custom Styles
+   ==========================
+*/
+body {
+  background: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+/* 
+   ==========================
+   Clearfix
+   ==========================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+/* 
+   ==========================
+   Grid
+   ==========================
+*/
+body {
+  min-width: 375px;
+  width: 635px;
+}
+
+.group {
+  width: 635px;
+}
+
+.list {
+  float: right;
+}
+.sign-up {
+  float: left;
+}
+
+.list,
+.sign-up {
+  width: 30%;
+}
+/* 
+   ==========================
+   Typography
+   ==========================
+*/
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.25rem;
+}
+
+h2,
+.sign-up p,
+span {
+  color: white;
+}
+
+li {
+  font-size: 0.7rem;
+}
+span {
+  font-size: 2rem;
+}
+header h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+header p,
+li,
+.time {
+  color: hsl(218, 22%, 67%);
+}
+/* 
+   ==========================
+   Header
+   ==========================
+*/
+
+header {
+  background: #fffefe;
+  border-radius: 5px 5px 0px 0px;
+  padding: 48px 78px 48px 40px;
+  margin: 165px auto 0 auto;
+}
+
+/* 
+   ==========================
+   Group - Div
+   ==========================
+*/
+.list,
+.sign-up {
+  background: hsl(179, 62%, 43%);
+  padding: 46px 46px 40px 40px;
+}
+/* 
+   ==========================
+   Footer
+   ==========================
+*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* 
+   ==========================
+   Buttons
+   ==========================
+*/
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  height: 3rem;
+}
