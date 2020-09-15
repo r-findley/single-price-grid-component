@@ -2,11 +2,11 @@
 
 This will be my attempt to recreate the single price grid component. I initialized a git repository on [GitHub](https://github.com/r-findley-single-price-grid-component) and completed the base structure of the html file. The remaining tasks are:
 
-- [] Update this readme to reflect my project
-- [] Create the css file
-  - [] This will be done using a css reset along with the style guide provided
-  - [] Changes to the HTML may occur, particularly the classes/ids, if needed while designing
-- [] The project will be deployed using Vercel.
+- [x] Update this readme to reflect my project
+- [x] Create the css file
+  - [x] This will be done using a css reset along with the style guide provided
+  - [x] Changes to the HTML may occur, particularly the classes/ids, if needed while designing
+- [x] The project will be deployed using Vercel.
 
 # Frontend Mentor - Single Price Grid Component
 
