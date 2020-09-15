@@ -163,11 +163,14 @@ body {
    ==========================
 */
 body {
+  box-sizing: border-box;
+  margin: 160px auto;
   min-width: 375px;
   width: 635px;
 }
 
 .group {
+  margin: 0 auto;
   width: 635px;
 }
 
@@ -180,7 +183,8 @@ body {
 
 .list,
 .sign-up {
-  width: 30%;
+  width: 40%;
+  height: 210px;
 }
 /* 
    ==========================
@@ -192,27 +196,35 @@ h1 {
   font-size: 1.25rem;
 }
 
-h2,
-.sign-up p,
-span {
+.list,
+.sign-up h2,
+#cost {
   color: white;
 }
 
 li {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
 }
-span {
+
+#cost {
   font-size: 2rem;
+  opacity: 1;
 }
+
 header h2 {
   color: hsl(71, 73%, 54%);
 }
 
-header p,
-li,
-.time {
+header p {
   color: hsl(218, 22%, 67%);
 }
+
+.list li,
+.sign-up p {
+  color: #adf5f2;
+}
+
 /* 
    ==========================
    Header
@@ -222,8 +234,20 @@ li,
 header {
   background: #fffefe;
   border-radius: 5px 5px 0px 0px;
-  padding: 48px 78px 48px 40px;
-  margin: 165px auto 0 auto;
+  height: 168px;
+  padding: 36px 58px 1.5rem 40px;
+}
+
+header h1 {
+  margin-bottom: 2rem;
+}
+
+header h2 {
+  margin-bottom: 1.5rem;
+}
+
+header p {
+  margin-bottom: 0.7rem;
 }
 
 /* 
@@ -233,9 +257,27 @@ header {
 */
 .list,
 .sign-up {
-  background: hsl(179, 62%, 43%);
-  padding: 46px 46px 40px 40px;
+  padding: 46px 5% 5px 5%;
 }
+
+.sign-up {
+  background: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 0px 5px;
+}
+.list {
+  background: #4abebd;
+  border-radius: 0px 0px 5px 0px;
+}
+
+.list h2,
+.sign-up h2 {
+  margin-bottom: 1.2rem;
+}
+
+.sign-up p {
+  margin-bottom: 1.5rem;
+}
+
 /* 
    ==========================
    Footer
@@ -257,7 +299,17 @@ header {
 .btn {
   background-color: hsl(71, 73%, 54%);
   border: none;
-  border-radius: 2px;
+  border-radius: 5px;
   color: white;
   height: 3rem;
+  margin-top: 0.5rem;
+  width: 236px;
+}
+
+/* 
+  ===========================
+  Media Query
+  ===========================
+*/
+@media screen and (max-width: 375px) {
 }
