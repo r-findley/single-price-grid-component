@@ -218,6 +218,7 @@ header h2 {
 
 header p {
   color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
 }
 
 .list li,
@@ -311,5 +312,34 @@ header p {
   Media Query
   ===========================
 */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 650px) {
+  body,
+  .group {
+    margin: 10px auto 0x auto;
+    width: 375px;
+  }
+  header,
+  .list,
+  .sign-up {
+    margin: auto;
+    width: 280px;
+    padding: 25px 0px 0px 25px;
+  }
+
+  header {
+    height: 264px;
+  }
+  .sign-up {
+    border-radius: 0px;
+    float: none;
+  }
+  .list {
+    border-radius: 0px 0px 5px 5px;
+    float: none;
+  }
+
+  .btn {
+    margin: auto;
+    width: 90%;
+  }
 }
