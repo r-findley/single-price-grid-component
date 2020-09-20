@@ -222,10 +222,16 @@ header p {
 }
 
 .list li,
-.sign-up p {
+.sign-up p,
+sup {
   color: #adf5f2;
 }
 
+sup {
+  font-size: 1rem;
+  padding-left: 5px;
+  vertical-align: 30%;
+}
 /* 
    ==========================
    Header
